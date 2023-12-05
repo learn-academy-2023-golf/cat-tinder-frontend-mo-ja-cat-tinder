@@ -3,7 +3,9 @@ import React from "react"
 const CatIndex = () => {
   return(
     <> 
-     Cat Index
+      <h5>
+        Cat Index
+      </h5> 
     </>
   )
 }

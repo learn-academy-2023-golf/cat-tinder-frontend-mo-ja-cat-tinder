@@ -5,10 +5,11 @@ const NotFound = () => {
   return(
     <> 
       <div className="not-found"> 
-      <h2>HuH, wrong way!</h2>
-      <img src={notFoundImage} alt="confused cat with huh written"/>
-    </div>
-
+        <h2>
+        HuH, wrong way!
+        </h2>
+        <img src={notFoundImage} alt="confused cat with huh written"/>
+      </div>
     </>
   )
 }
