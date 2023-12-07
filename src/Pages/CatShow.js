@@ -10,8 +10,9 @@ const CatShow = ({ cats }) => {
     <div className="show-page">
       {selectedCat && (
         <>
-          <h2>I am {selectedCat.name}, age {selectedCat.age}.</h2>
-          <h3>I enjoy {selectedCat.enjoys}</h3>
+          <h2>Hi! My name is {selectedCat.name}, I am {selectedCat.age} years old.</h2>
+          <h3>Things I enjoy are {selectedCat.enjoys}</h3>
+          <h4>Lets make a purr-fect match!</h4>
           <img alt={selectedCat.name} src={selectedCat.image} />
         </>
       )}
