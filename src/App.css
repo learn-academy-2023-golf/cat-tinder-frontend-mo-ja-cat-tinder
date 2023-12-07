@@ -1,4 +1,9 @@
-
+.homepage {
+  background-color: rgb(241, 241, 23);
+}
+.not-found {
+  background-color: rgb(241, 241, 23) ;
+}
 .not-found-position {
   padding: 20px;
   width: 20vw;
@@ -7,7 +12,7 @@
 header, footer {
   font-size: 20px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.78);
+  background-color: rgb(241, 241, 23);
 }
 
 header {
@@ -26,5 +31,9 @@ footer {
 }
 
 p {
-  color: white
+  color: rgb(28, 25, 14)
+}
+
+.show-page {
+  padding-top: 100px;
 }
