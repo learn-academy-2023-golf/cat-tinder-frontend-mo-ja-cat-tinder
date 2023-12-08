@@ -16,7 +16,6 @@ const App = () => {
   const [cats, setCats] = useState(mockCats)
 
   const createCat = (cat) => {
-    console.log(cat)
   }
 
   return (
