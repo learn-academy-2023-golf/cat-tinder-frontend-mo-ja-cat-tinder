@@ -6,25 +6,27 @@ const Header = () => {
     return (
         <>
             <h2> Cat Tinder!</h2>
+           <div className='header-nav'>
             <header>
                 <Nav>
                     <NavItem>
                         <NavLink to="/">
-                            Home
+                            <h6> Home </h6>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink to="/catindex">
-                            Let's take a look!
+                            <h6>Let's take a look!</h6>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink to="/catnew">
-                            Start today!
+                            <h6>Start today!</h6>
                         </NavLink>
                     </NavItem>
                 </Nav>
             </header>
+            </div>
         </>
     )
 }
