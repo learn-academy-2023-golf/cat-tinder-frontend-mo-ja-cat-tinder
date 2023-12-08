@@ -1,9 +1,9 @@
 import React from "react"
 
-const CatEdit= () => {
-  return(
-    <> 
-     Cat Edit
+const CatEdit = () => {
+  return (
+    <>
+      Cat Edit
     </>
   )
 }
