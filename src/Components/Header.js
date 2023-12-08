@@ -6,7 +6,6 @@ const Header = () => {
     return (
         <>
             <h2> Cat Tinder!</h2>
-           <div className='header-nav'>
             <header>
                 <Nav>
                     <NavItem>
@@ -26,7 +25,6 @@ const Header = () => {
                     </NavItem>
                 </Nav>
             </header>
-            </div>
         </>
     )
 }
