@@ -7,8 +7,8 @@ import CatNew from "./Pages/CatNew"
 import CatShow from "./Pages/CatShow"
 import NotFound from "./Pages/NotFound"
 import Home from "./Pages/Home"
-import mockCats from "./mockCats"
 import "./App.css"
+import mockCats from "./mockCats"
 import { Routes, Route } from "react-router-dom"
 
 const App = () => {
